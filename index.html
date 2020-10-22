@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Tomin sivut</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="idstyle.css">
+</head>
+
+<body>
+
+  <form>
+    <div class="jumbotron text-center">
+      <h2>To Do List</h2>
+      <input type="text" id="textKentta" placeholder="add task..">
+      <br>
+      <br>
+      <span onclick="uusiTeht()" class="nappi">Add task</span>
+      <br>
+      <br>
+      <h2 id="otsikko" style="display: none;">Clicking task removes it from list</h2>
+    </div>
+  </form>
+  <ul id="udlista">
+
+  </ul>
+</body>
+<script src="indexin.js"></script>
+
+</html>
